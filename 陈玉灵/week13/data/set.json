@@ -1,0 +1,25 @@
+{
+  "word": "set",
+  "phonetic": "/sɛt/",
+  "pos": "v.",
+  "definition": "放置；设置；设定",
+  "examples": [
+    {
+      "en": "She set the book on the table.",
+      "zh": "她把书放在桌子上。"
+    },
+    {
+      "en": "He set the alarm for 6 a.m.",
+      "zh": "他把闹钟设在早上6点。"
+    },
+    {
+      "en": "We need to set a time for the meeting.",
+      "zh": "我们需要设定会议时间。"
+    }
+  ],
+  "synonyms": [
+    "place",
+    "put",
+    "configure"
+  ]
+}

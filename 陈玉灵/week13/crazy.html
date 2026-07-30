@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>crazy - Flash Card</title>
+<style>
+  :root {
+    --bg: #f5f7fb;
+    --card: #ffffff;
+    --ink: #1f2937;
+    --muted: #6b7280;
+    --accent: #4f46e5;
+    --accent-soft: #eef2ff;
+    --border: #e5e7eb;
+    --shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                 "Microsoft YaHei", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    width: 100%;
+    max-width: 720px;
+    background: var(--card);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .header {
+    padding: 32px 36px 24px;
+    background: linear-gradient(135deg, var(--accent) 0%, #7c3aed 100%);
+    color: #fff;
+  }
+  .word {
+    margin: 0;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  .phonetic {
+    margin-top: 8px;
+    font-size: 18px;
+    opacity: 0.92;
+    font-style: italic;
+  }
+  .body { padding: 28px 36px 36px; }
+  .definition {
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 14px 16px;
+    background: var(--accent-soft);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+  }
+  .definition .pos {
+    color: var(--accent);
+    font-weight: 600;
+    margin-right: 6px;
+  }
+  h2 {
+    margin: 28px 0 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .synonyms { display: flex; flex-wrap: wrap; gap: 10px; }
+  .synonyms .tag {
+    padding: 6px 14px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .examples { list-style: none; padding: 0; margin: 0; }
+  .examples li {
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    background: #fafafa;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  .examples .en {
+    font-size: 17px;
+    line-height: 1.55;
+  }
+  .examples .zh {
+    margin-top: 6px;
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.55;
+  }
+  .footer {
+    margin-top: 28px;
+    padding-top: 16px;
+    border-top: 1px dashed var(--border);
+    font-size: 12px;
+    color: var(--muted);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <h1 class="word">crazy</h1>
+      <div class="phonetic">/ˈkreɪzi/</div>
+    </div>
+    <div class="body">
+      <div class="definition">
+        <span class="pos">adj.</span>疯狂的；荒唐的；着迷的；极热衷的
+      </div>
+
+      <h2>近义词</h2>
+      <div class="synonyms">
+        <span class="tag">mad</span>
+        <span class="tag">insane</span>
+        <span class="tag">wild</span>
+        <span class="tag">absurd</span>
+        <span class="tag">nuts</span>
+        <span class="tag">eccentric</span>
+      </div>
+
+      <h2>例句</h2>
+      <ul class="examples">
+        <li><div class="en">You must be crazy to go out in this storm!</div><div class="zh">你在这场暴风雨中出门一定是疯了！</div></li>
+        <li><div class="en">She is crazy about jazz music and collects old records.</div><div class="zh">她极其热衷于爵士乐，收藏了很多老唱片。</div></li>
+        <li><div class="en">It sounds crazy, but the plan actually worked.</div><div class="zh">听起来很荒唐，但这个计划居然奏效了。</div></li>
+      </ul>
+
+      <div class="footer">Flash Card · 学一个词，记一组词</div>
+    </div>
+  </div>
+</body>
+</html>
