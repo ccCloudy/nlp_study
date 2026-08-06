@@ -1,0 +1,25 @@
+{
+  "word": "way",
+  "phonetic": "/weɪ/",
+  "pos": "n.",
+  "definition": "方法；道路；方面；习惯",
+  "examples": [
+    {
+      "en": "Can you show me the way to the station?",
+      "zh": "你能告诉我去车站的路吗？"
+    },
+    {
+      "en": "This is the best way to solve the problem.",
+      "zh": "这是解决这个问题的最好方法。"
+    },
+    {
+      "en": "In some ways, he is like his father.",
+      "zh": "在某些方面，他像他的父亲。"
+    }
+  ],
+  "synonyms": [
+    "method",
+    "route",
+    "manner"
+  ]
+}

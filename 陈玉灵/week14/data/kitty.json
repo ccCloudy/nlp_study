@@ -1,0 +1,25 @@
+{
+  "word": "kitty",
+  "phonetic": "/ˈkɪti/",
+  "pos": "n.",
+  "definition": "小猫；猫咪（儿童用语）；也指共同凑集的钱款或赌金",
+  "examples": [
+    {
+      "en": "The little girl loves to play with her kitty in the garden.",
+      "zh": "小女孩喜欢在花园里和她的猫咪玩耍。"
+    },
+    {
+      "en": "Everyone put money into the kitty to buy a birthday gift for the boss.",
+      "zh": "每个人都凑钱到公共资金里，为老板买一份生日礼物。"
+    },
+    {
+      "en": "Come here, kitty! I have some fish for you.",
+      "zh": "过来，小猫咪！我给你带了些鱼。"
+    }
+  ],
+  "synonyms": [
+    "kitten",
+    "cat",
+    "fund"
+  ]
+}
